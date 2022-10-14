@@ -14,8 +14,9 @@ export const Nav = () => {
 		<h1 class="logo"><NavLink to="/">Stage Solution</NavLink></h1>
       <ul class="main-nav">
           <li><NavLink to="/">{t("Home")}</NavLink></li>
+          <li><NavLink to="/service">{t("Service")}</NavLink></li>
           <li><NavLink to="/about">{t("About")}</NavLink></li>
-          <li><NavLink to="/portfolio">{t("Portfolio")}</NavLink></li>
+          <li><NavLink to="/gallery">{t("Gallery")}</NavLink></li>
           <li><NavLink to="/contact">{t("Contact")}</NavLink></li>
           <li onClick={() => changeLanguageHandler("en")}><NavLink>{t("EN")}</NavLink></li>
           <li onClick={() => changeLanguageHandler("ge")}><NavLink>{t("GE")}</NavLink></li>

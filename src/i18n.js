@@ -5,8 +5,9 @@ const resources = {
     en: {
         translation: {
             "Home":"Home",
+            "Service":"Service",
             "About":"About",
-            "Portfolio":"Portfolio",
+            "Gallery":"Gallery",
             "Contact":"Contact",
             "EN":"EN",
             "GE":"GE",
@@ -23,7 +24,9 @@ const resources = {
     ge: {
         translation: {
             "Home":"მთავარი",
+            "Service":"სერვისი",
             "About":"ჩვენს შესახებ",
+            "Gallery":"გალერეა",
             "Portfolio":"პორტფოლიო",
             "Contact":"კონტაქტები",
             "EN":"ინგ.",
